@@ -29,6 +29,6 @@ Translate the following into statements of propositional logic:
 3. The professor does not accept bribes, but I study and will pass the course.<br>
   $$\neg r \wedge (p \wedge q) $$
 4. If I study, the professor will accept bribes and I will pass the course.<br>
-  $$p$$
+  $$p \rightarrow (r \wedge q)$$
 5. I will not pass the course but the professor accepts bribes.<br>
-  $$p$$
+  $$\neg q \wedge r$$
